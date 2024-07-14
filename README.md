@@ -1,5 +1,5 @@
 # ThreatFox2Snort
-Python script created to generate Snort rules from IOCs reported by ThreatFox during the past 48 hours.
+Python script created to generate Snort rules from IOCs reported by ThreatFox during the past 48 hours. This script excludes IOCs containing dotted quads for accuracy and redundancy.
 
 # Usage Options:
   - **--config CONFIG**       (Path to configuration file)
